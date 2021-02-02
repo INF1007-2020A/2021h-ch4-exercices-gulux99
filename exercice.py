@@ -3,23 +3,40 @@
 
 
 def is_even_len(string: str) -> bool:
-    pass
+    is_pair = len(string) % 2 == 0
+
+    if len(string) % 2 == 0:
+        return True
+
+    return False
 
 
 def remove_third_char(string: str) -> str:
-    pass
+    string = string[0:2] + string[3:]
+
+    return string
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    pass
+
 
 
 def get_number_of_char(string: str, char: str) -> int:
-    pass
+    occurence = 0
+    for c in string:
+        if c == char:
+            occurence += 1
+
+    return occurence
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    pass
+    occurence = 0
+    for c in sentence
+        if c == word
+            occurence += 1
+
+    return occurence
 
 
 def main() -> None:
