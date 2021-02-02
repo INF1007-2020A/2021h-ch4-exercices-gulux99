@@ -16,9 +16,7 @@ def remove_third_char(string: str) -> str:
 
     return string
 
-
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-
 
 
 def get_number_of_char(string: str, char: str) -> int:
@@ -31,12 +29,13 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    Nombre_mots = 0
-    for c in sentence
-        if c == word
-            Nombre_mots += 1
+    mots = 0
+    sentence = sentence.split()
+    for i in sentence:
+         if i == word :
+             mots += 1
 
-    return occurence
+    return mots
 
 
 def main() -> None:
