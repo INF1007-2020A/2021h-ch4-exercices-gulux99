@@ -31,10 +31,10 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    occurence = 0
+    Nombre_mots = 0
     for c in sentence
         if c == word
-            occurence += 1
+            Nombre_mots += 1
 
     return occurence
 
